@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,16 +13,16 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HelloWord" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ryy-gQ-aDa">
-                                <rect key="frame" x="15" y="58" width="360" height="360"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ryy-gQ-aDa">
+                                <rect key="frame" x="15" y="11" width="290" height="262.5"/>
                                 <color key="backgroundColor" systemColor="systemMintColor"/>
                                 <color key="tintColor" systemColor="systemIndigoColor"/>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9b6-Vz-KmR">
-                                <rect key="frame" x="15" y="439" width="360" height="360"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9b6-Vz-KmR">
+                                <rect key="frame" x="15" y="294.5" width="290" height="262.5"/>
                                 <color key="backgroundColor" systemColor="systemBlueColor"/>
                                 <rect key="contentStretch" x="0.5" y="0.5" width="1" height="1"/>
                             </view>
@@ -36,6 +36,7 @@
                             <constraint firstItem="9b6-Vz-KmR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="ZQU-2c-naT"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ryy-gQ-aDa" secondAttribute="trailing" constant="15" id="pdg-LG-dSY"/>
                             <constraint firstItem="ryy-gQ-aDa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="tOp-l0-bOc"/>
+                            <constraint firstItem="9b6-Vz-KmR" firstAttribute="height" secondItem="ryy-gQ-aDa" secondAttribute="height" id="tlr-zy-m5s"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="9b6-Vz-KmR" secondAttribute="bottom" constant="11" id="vIA-Kt-nhK"/>
                         </constraints>
                     </view>
